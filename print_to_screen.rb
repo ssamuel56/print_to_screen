@@ -21,6 +21,7 @@ end
 def adding(a, b)
 	a + b 
 end
+
 puts "\n"
 puts adding(12, 1)
 
