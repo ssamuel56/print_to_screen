@@ -31,15 +31,24 @@ puts '.' * 10
 	puts i
 end
 
-100.times do |j|
-	if j == 2
-		puts "Scott is a teacher with a mind"
-	else 
-		puts j + 1	
+2.times do
+	101.times do |j|
+		if j == 0 
+		elsif j % 15 == 0
+			puts "Mined minds"
+		elsif j % 3 ==  0
+			puts "."
+		elsif j % 5 == 0
+			puts "Scott the bot"
+		elsif j == 4
+			puts "no GG"
+		else 
+			puts j	
+		end
 	end
 end
 
-number = 1
+# number = 1
 
 # until number > 100
 # 	puts number 
