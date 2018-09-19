@@ -31,10 +31,18 @@ puts '.' * 10
 	puts i
 end
 
+100.times do |j|
+	if j == 2
+		puts "Scott is a teacher with a mind"
+	else 
+		puts j + 1	
+	end
+end
+
 number = 1
 
-until number > 100
-	puts number 
-	number += 1
-end
+# until number > 100
+# 	puts number 
+# 	number += 1
+# end
 
