@@ -9,11 +9,10 @@ def buzz(number)
     number
   end
 end
-#
-# while number <= 100
-#   puts number
-#   number += 1
-#   buzz(number
-#     unless number % 15 == 0 || number % 5 == 0 || number % 3 == 0
-#   end
-# end
+
+number = 1
+
+while number < 100
+  puts buzz(number)
+  number += 1
+end
