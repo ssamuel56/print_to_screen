@@ -8,4 +8,7 @@ class Testing < Minitest::Test
   def test_buzz_2
     assert_equal("mined", buzz(15))
   end
+  def test_buzz_3
+    assert_equal("minds", buzz(5))
+  end
 end
